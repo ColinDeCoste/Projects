@@ -1,3 +1,18 @@
+##
+## Program: GetSpacePic.py
+## Purpose: Read NASA's GateWay to Astronaut Photography of Earth
+##          database for a particular ISS mission and frame
+##          combination. First parameter is ISS Mission number,
+##          a zero-filled 3-digit code. Second is frame number,
+##          not zero-filled. Returns the focal length of the camera
+##          used, along with the date and time the photo was taken.
+## To Use: Open command prompt, set directory to location of this
+##         file, call the file followed by the desired mission
+##         and frame number
+## Example: GetSpacePic.py 
+## Programmer: Colin DeCoste
+## Date: February 25, 2025
+##
 
 if __name__ == "__main__":
 
