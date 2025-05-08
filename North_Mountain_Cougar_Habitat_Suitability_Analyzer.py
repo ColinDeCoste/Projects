@@ -1,7 +1,7 @@
 #
 # Program: Assignment1: North Mountain Cougar Habitat Suitability Analysis
 # Purpose: Calculate the suitability of forest stands in a NSDNR dataset for the
-#           North Mountain Cougar habitat. Run in QGIS.
+#           North Mountain Cougar habitat. Run in QGIS, with provided zipped shapefile.
 # Programmer: Colin DeCoste
 # Date: October 15, 2024
 #
