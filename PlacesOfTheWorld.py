@@ -149,7 +149,7 @@ def getname(filepath):
     mode = QLineEdit.Normal
     title2 = 'Pick File Name'
     label2 = 'Please name your file:'
-    defVal2 = 'QuandrantReportForPeopleWithPoorFileManagement'
+    defVal2 = 'PlaceholderFileName'
         
     filename, filenameok = QInputDialog.getText(qI,title2,label2,mode,defVal2)
         
@@ -190,7 +190,6 @@ def set_path():
         
     return filepath
     
-
 # Use all features if none selected by user.
 if layer.selectedFeatures() == []:
     layer.selectAll()
